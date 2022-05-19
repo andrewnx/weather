@@ -15,7 +15,7 @@ $(function () {
             var currentCondition = wd.weather[0].description;
             var currentTemp = wd.main.temp;
             var icon = wd.weather[0].icon;
-            var iconSrc = "http://openweathermap.org/img/wn/" + icon + "@2x.png";
+            var iconSrc = "https://openweathermap.org/img/wn/" + icon + "@2x.png";
             var currentPressure = wd.main.pressure;
             var feelsLike = wd.main.feels_like;
             var currentHumidity = wd.main.humidity;
