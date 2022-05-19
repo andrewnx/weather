@@ -4,7 +4,7 @@ $(function () {
 
 
 
-    $.getJSON('http://ipinfo.io/json?token=771d57b569006f', function (d) {
+    $.getJSON('https://ipinfo.io/json?token=771d57b569006f', function (d) {
 
         loc = d.loc.split(",");
         console.log(loc)
