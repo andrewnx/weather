@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('../img/sunset.jpg') no-repeat center center/cover;
+  font-family: 'Outfit', 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#header {
+  background: #2980b9;
+  color: white;
+  padding: 0 16px;
+  display: inline-block;
+  width: 100%;
+  margin-top: 0;
+  box-shadow: 0px 2px 5px #555;
+}
+#header .left, #header .navbar, #header .right {
+  display: inline-block;
+}
+#header .left, #header .right {
+  width: 20%;
+}
+#header .navbar {
+  width: 60%;
+}
+#header .left {
+  float: left;
+}
+#header .right {
+  text-align: right;
+  float: right;
+  margin-top: 1vh;
+  vertical-align: bottom;
+}
+#container {
+  background: rgba(255, 255, 255, 0.1);
+  display: block;
+  width: 54%;
+  margin: 48px auto;
+  min-height: 300px;
+  padding: 24px;
+  border-radius: 4px;
+}
+#container .center-text {
+  text-align: center;
+}
+
+#header h1 {
+  margin-top: 1vh;
+}
+
+.dayImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container {
+  color: white;
+  font-size: 110%;
+  text-shadow:
+  0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
